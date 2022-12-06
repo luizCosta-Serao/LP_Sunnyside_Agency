@@ -1,0 +1,58 @@
+.fruits {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.cherry {
+  background: url("../images/desktop/image-graphic-design.jpg");
+  background-position: center;
+  background-size: contain;
+  height: 530px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.cherry h1 {
+  font-size: 2rem;
+  color: hsl(167, 40%, 24%);
+  font-family: 'Fraunces', sans-serif;
+}
+
+.cherry p {
+  font-size: 1rem;
+  font-family: sans-serif;
+  color:hsl(167, 40%, 24%) ;
+  line-height: 1.5;
+  width: 350px;
+  margin: 2rem auto;
+}
+
+
+.orange {
+  background: url("../images/desktop/image-photography.jpg");
+  background-position: center;
+  background-size: contain;
+  height: 530px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.orange h1 {
+  font-size: 2rem;
+  color: hsl(198, 62%, 26%);
+  font-family: 'Fraunces', sans-serif;
+}
+
+.orange p {
+  font-size: 1rem;
+  font-family: sans-serif;
+  color:hsl(198, 62%, 26%) ;
+  line-height: 1.5;
+  width: 350px;
+  margin: 2rem auto;
+}
