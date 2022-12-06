@@ -14,4 +14,7 @@
 @import "./fruits.css";
 
 /*ESTILIZAÇÃO TESTIMONIALS*/
-@import "./testimonials.css"
+@import "./testimonials.css";
+
+/*ESTILIZAÇÃO IMAGES-EXIBITION*/
+@import "./images-exibition.css"
