@@ -1,0 +1,35 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 80vh;
+  padding: 2rem 1rem;
+  background:url("../images/desktop/image-header.jpg") ;
+  background-position: center;
+  background-size: contain;
+}
+
+.logo img {
+  width: 200px;
+}
+
+.nav-menu ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  position: relative;
+  top: 10px;
+}
+
+.nav-menu ul li a {
+  color: hsl(0, 0%, 100%);
+  font-size: 1.125rem;
+}
+
+.nav-menu ul li .contact {
+  font-weight: bold;
+  font-size: 1.125rem;
+  color: hsl(212, 27%, 19%);
+  background-color: hsl(0, 0%, 100%);
+  padding: 1rem 1.5rem;
+  border-radius: 1.3rem;
+}

@@ -1,0 +1,8 @@
+/*ESTILIZAÇÕES GERAIS*/
+@import "./gerais.css";
+
+/*ESTILIZAÇÃO HEADER*/
+@import "./header.css";
+
+/*ESTILIZAÇÃO EGG*/
+@import "./egg.css"
