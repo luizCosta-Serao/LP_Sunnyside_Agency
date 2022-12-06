@@ -17,4 +17,7 @@
 @import "./testimonials.css";
 
 /*ESTILIZAÇÃO IMAGES-EXIBITION*/
-@import "./images-exibition.css"
+@import "./images-exibition.css";
+
+/*ESTILIZAÇÃO FOOTER*/
+@import "./footer.css";

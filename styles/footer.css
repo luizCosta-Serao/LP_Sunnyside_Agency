@@ -1,0 +1,27 @@
+.copy {
+  background-color: hsl(160, 30%, 63%);
+  padding: 4rem 0 4rem 0;
+}
+
+.copy > a img {
+  width: 200px;
+  margin: 0 auto;
+  fill: hsl(167, 40%, 24%);
+}
+
+.footer-menu {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  padding: 2rem 0 4rem 0;
+}
+
+.footer-menu li a {
+  color: hsl(167, 40%, 24%);
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
