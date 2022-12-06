@@ -1,41 +1,41 @@
-.egg {
+.stand-out {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
 }
 
-.egg-text {
+.stand-out-text {
   padding: 0 2rem;
   margin: 0 auto;
 }
 
-.egg-text h1 {
+.stand-out-text h1 {
   font-size: 3rem;
   color: hsl(212, 27%, 19%);
   font-weight: bold;
   font-family: 'Fraunces', sans-serif;
 }
 
-.egg-text p {
+.stand-out-text p {
   font-size: 1rem;
   color: hsl(210, 4%, 67%);
   font-family: sans-serif;
   padding: .5rem 0 2rem 0;
 }
 
-.egg-text a {
+.stand-out-text a {
   color: hsl(212, 27%, 19%);
   font-size: 1.125rem;
   text-transform: uppercase;
   font-family: 'Fraunces', sans-serif;
 }
 
-.egg-text a::after {
+.stand-out-text a::after {
   content: "";
   width: 130px;
   height: 6px;
   display: block;
-  background-color: hsl(51, 100%, 49%);
+  background-color: hsl(7, 99%, 70%);
   opacity: 0.4;
   position: relative;
   top: -7px;

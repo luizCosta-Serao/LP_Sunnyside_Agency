@@ -5,4 +5,7 @@
 @import "./header.css";
 
 /*ESTILIZAÇÃO EGG*/
-@import "./egg.css"
+@import "./egg.css";
+
+/*ESTILIZAÇÃO STAND-OUT*/
+@import "./stand-out.css";
