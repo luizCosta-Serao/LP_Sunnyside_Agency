@@ -1,4 +1,6 @@
 .stand-out {
+  position: relative;
+  top: -3px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
@@ -40,4 +42,24 @@
   position: relative;
   top: -7px;
   z-index: -1;
+}
+
+@media (max-width:768px) {
+  .stand-out {
+    grid-template-columns: 1fr;
+  }
+
+  
+  .stand-out-text {
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+
+  .stand-out-text a::after {
+    margin: 0 auto;
+  }
+
+  .stand-out-image img {
+    height: 450px;
+  }
 }

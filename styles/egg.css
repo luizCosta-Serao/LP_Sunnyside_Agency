@@ -41,3 +41,26 @@
   top: -7px;
   z-index: -1;
 }
+
+@media (max-width:768px) {
+  .egg {
+   grid-template-columns: 1fr;
+  }
+
+  .egg-text {
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+
+  .egg-text a::after {
+    margin: 0 auto;
+  }
+
+  .egg-img {
+    grid-row: 1 / 2;
+  }
+
+  .egg-img img {
+    height: 450px;
+  }
+}

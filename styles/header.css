@@ -5,7 +5,8 @@ header {
   padding: 2rem 1rem;
   background:url("../images/desktop/image-header.jpg") ;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .logo img {
@@ -32,4 +33,48 @@ header {
   background-color: hsl(0, 0%, 100%);
   padding: 1rem 1.5rem;
   border-radius: 1.3rem;
+}
+
+.button-menu-mobile {
+  display: none;
+}
+
+@media (max-width:768px) {
+  .button-menu-mobile {
+    display: block;
+    background-image: url("../images/icon-hamburger.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    top: 4px;
+  }
+
+  .nav-menu {
+    position: relative;
+  }
+
+  .nav-menu ul {
+    display: flex;
+    visibility: hidden;
+    opacity: 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    transform: translateY(-40px);
+    transition: .5s all ease-in-out;
+  }
+
+  .nav-menu ul.active {
+    transform: translateY(0px);
+    opacity: 1;
+    visibility: visible;
+  }
 }

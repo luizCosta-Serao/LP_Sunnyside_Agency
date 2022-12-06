@@ -1,4 +1,6 @@
 .fruits {
+  position: relative;
+  top: -6px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
@@ -7,7 +9,8 @@
 .cherry {
   background: url("../images/desktop/image-graphic-design.jpg");
   background-position: center;
-  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 530px;
   text-align: center;
   display: flex;
@@ -34,7 +37,8 @@
 .orange {
   background: url("../images/desktop/image-photography.jpg");
   background-position: center;
-  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 530px;
   text-align: center;
   display: flex;
@@ -55,4 +59,10 @@
   line-height: 1.5;
   width: 350px;
   margin: 2rem auto;
+}
+
+@media (max-width:768px) {
+  .fruits {
+    grid-template-columns: 1fr;
+  }
 }
