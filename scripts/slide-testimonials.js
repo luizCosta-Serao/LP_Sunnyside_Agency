@@ -18,10 +18,8 @@ export default function slideTestimonials() {
     })
   }
 
-function reloadSlide() {
+  function reloadSlide() {
   slideWrapper.style.transform = `translateX(-${slideItem[0].clientWidth * 0}px)`
-  console.log(slideItem[0])
-  console.log("OI")
-}
-window.addEventListener("resize", reloadSlide)
+  }
+  window.addEventListener("resize", reloadSlide)
 }
