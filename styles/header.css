@@ -26,6 +26,10 @@ header {
   font-size: 1.125rem;
 }
 
+.nav-menu ul li a:hover {
+  color: hsl(212, 27%, 19%);
+}
+
 .nav-menu ul li .contact {
   font-weight: bold;
   font-size: 1.125rem;
@@ -33,6 +37,12 @@ header {
   background-color: hsl(0, 0%, 100%);
   padding: 1rem 1.5rem;
   border-radius: 1.3rem;
+  transition: all 0.5s;
+}
+
+.nav-menu ul li .contact:hover {
+  background-color: hsl(212, 27%, 19%);
+  color: hsl(0, 0%, 100%);
 }
 
 .button-menu-mobile {

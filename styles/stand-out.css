@@ -32,6 +32,10 @@
   font-family: 'Fraunces', sans-serif;
 }
 
+.stand-out-text a:hover {
+  color:  hsl(7, 99%, 70%);
+}
+
 .stand-out-text a::after {
   content: "";
   width: 130px;

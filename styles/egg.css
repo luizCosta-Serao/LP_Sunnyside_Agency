@@ -30,6 +30,10 @@
   font-family: 'Fraunces', sans-serif;
 }
 
+.egg-text a:hover {
+  color:hsl(51, 100%, 49%);
+}
+
 .egg-text a::after {
   content: "";
   width: 130px;
