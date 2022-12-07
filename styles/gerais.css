@@ -28,3 +28,14 @@ img {
   max-width: 1280px;
   margin: 0 auto;
 }
+
+.js-scroll {
+  opacity: 0;
+  transform: translateX(-40px);
+  transition: all 1s;
+}
+
+.js-scroll.animation-scroll-left {
+  opacity: 1;
+  transform: translateX(0);
+}
