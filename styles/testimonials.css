@@ -48,3 +48,40 @@
   color: hsl(210, 4%, 67%);
   font-family: sans-serif;
  }
+
+ .change-slide {
+  display: none;
+ }
+
+ @media (max-width:768px) {
+  .testimonials {
+    overflow: hidden;
+  }
+
+  .clients {
+    display: flex;
+    gap: 2rem;
+    text-align: center;
+   }
+
+   .clients li {
+    width: 100%;
+    padding: 0 1rem;
+    flex-shrink: 0;
+   }
+
+   .change-slide {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin: 2rem auto;
+   }
+
+   .change-slide span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: hsl(212, 27%, 19%);
+   }
+ }
